@@ -1,0 +1,66 @@
+button, .dropdown_button {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	display: inline-block;
+	height: 80%;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: capitalize;
+	cursor: pointer;
+	overflow:hidden;
+	margin:0;
+}
+
+.button--primary {
+	background-color: rgb(52, 60, 104);
+	color: rgba(255, 255, 255, 0.815);
+}
+
+.button--secondary {
+	background-color: rgb(110, 112, 116);
+	color: black;
+}
+
+button.button--secondary:hover {
+	background-color: rgb(225, 72, 72);
+}
+
+button.button--primary:hover {
+	background-color: rgb(1, 12, 77);
+}
+
+#filter {
+	color: rgba(0, 0, 0, 0.747);
+	text-align: left;
+	float:right;
+	background-color: rgb(97, 97, 243);
+	width: max-content;
+	cursor: pointer;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.closeButton {
+	position: absolute;
+	top: -10px;
+	right: 0;
+	transform: translateY(-100%);
+	font-size: 1rem;
+	padding: 0.5rem;
+	border-radius: 4px;
+	background-color: rgb(211, 202, 202);
+	color: rgba(0, 0, 0, 0.808);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.3s ease all;
+	z-index: -1;
+}
+
+div.closeButton:hover {
+	background-color : rgb(2225, 72, 72);
+}
